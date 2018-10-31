@@ -45,10 +45,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4">
+                <div class="col-xs-3">
                     <a href="{{ route('auth.login') }}"><button type="button" class="btn pterodactyl-login-button--left"><i class="fa fa-user-circle"></i></button></a>
                 </div>
-                <div class="col-xs-offset-4 col-xs-4">
+                <div class="col-xs-offset-3 col-xs-6">
                     {!! csrf_field() !!}
                     <button type="submit" class="btn btn-block g-recaptcha pterodactyl-login-button--main" @if(config('recaptcha.enabled')) data-sitekey="{{ config('recaptcha.website_key') }}" data-callback='onSubmit' @endif>@lang('auth.request_reset')</button>
                 </div>

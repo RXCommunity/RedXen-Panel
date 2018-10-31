@@ -133,7 +133,7 @@
                         </div>
                     @endif
                     <div class="col-sm-12">
-                        <div class="small-box bg-gray">
+                        <div class="small-box bg-black">
                             <div class="inner">
                                 <h3>{{ str_limit($server->user->username, 16) }}</h3>
                                 <p>Server Owner</p>
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12">
-                        <div class="small-box bg-gray">
+                        <div class="small-box bg-black">
                             <div class="inner">
                                 <h3>{{ str_limit($server->node->name, 16) }}</h3>
                                 <p>Server Node</p>

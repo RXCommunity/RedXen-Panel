@@ -26,7 +26,7 @@
         @section('scripts')
             {!! Theme::css('vendor/bootstrap/bootstrap.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/adminlte/admin.min.css?t={cache-version}') !!}
-            {!! Theme::css('vendor/adminlte/colors/skin-blue.min.css?t={cache-version}') !!}
+            {!! Theme::css('vendor/adminlte/colors/skin-red.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/sweetalert/sweetalert.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/animate/animate.min.css?t={cache-version}') !!}
             {!! Theme::css('css/pterodactyl.css?t={cache-version}') !!}
@@ -39,7 +39,7 @@
             <![endif]-->
         @show
     </head>
-    <body class="hold-transition skin-blue fixed sidebar-mini">
+    <body class="skin-red sidebar-collapse sidebar-mini">
         <div class="wrapper">
             <header class="main-header">
                 <a href="{{ route('index') }}" class="logo">
