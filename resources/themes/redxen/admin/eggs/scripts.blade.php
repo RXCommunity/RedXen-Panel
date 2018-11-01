@@ -108,7 +108,7 @@
         const InstallEditor = ace.edit('editor_install');
         const Modelist = ace.require('ace/ext/modelist')
 
-        InstallEditor.setTheme('ace/theme/chrome');
+        InstallEditor.setTheme('ace/theme/terminal');
         InstallEditor.getSession().setMode('ace/mode/sh');
         InstallEditor.getSession().setUseWrapMode(true);
         InstallEditor.setShowPrintMargin(false);

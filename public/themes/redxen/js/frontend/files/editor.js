@@ -22,7 +22,7 @@
     var Whitespace = ace.require('ace/ext/whitespace');
     var Modelist = ace.require('ace/ext/modelist');
 
-    Editor.setTheme('ace/theme/chrome');
+    Editor.setTheme('ace/theme/terminal');
     Editor.getSession().setUseWrapMode(true);
     Editor.setShowPrintMargin(false);
 

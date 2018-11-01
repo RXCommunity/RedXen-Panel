@@ -75,7 +75,7 @@
         const Editor = ace.edit('editor_index');
         const Modelist = ace.require('ace/ext/modelist')
 
-        Editor.setTheme('ace/theme/chrome');
+        Editor.setTheme('ace/theme/terminal');
         Editor.getSession().setMode('ace/mode/javascript');
         Editor.getSession().setUseWrapMode(true);
         Editor.setShowPrintMargin(false);
