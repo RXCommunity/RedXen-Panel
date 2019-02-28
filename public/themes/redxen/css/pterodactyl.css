@@ -228,6 +228,10 @@ h6 small {
     border-color: #111;
 }
 
+.form-control option {
+    background-color: #222;
+}
+
 .btn,
 .btn-default {
     background-color: #222;
@@ -748,4 +752,8 @@ label.control-label>span.field-optional:before {
 
 .number-info-box-content {
     padding: 15px 10px 0;
+}
+
+.table-responsive {
+    border: none !important;
 }
