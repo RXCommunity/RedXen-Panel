@@ -757,3 +757,19 @@ label.control-label>span.field-optional:before {
 .table-responsive {
     border: none !important;
 }
+
+.modal-content {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.modal-header, .modal-footer {
+    border-bottom: none;
+    border-top: none;
+}
+
+.close {
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    opacity: 0.5;
+}
